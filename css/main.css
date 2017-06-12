@@ -1,0 +1,116 @@
+/*BASE STYLES*/
+body{
+	font-family:'Source Sans Pro', sans-serif;
+}
+#about{
+	height:600px;
+}
+#projects{
+	height:700px;
+}
+#contact{
+	height:200px;
+}
+
+/*GRID*/
+.full-width{
+	width:1200px;
+	margin:0 auto;
+}
+.half-width{
+	width:600px;
+	float:left;
+}
+.third-width{
+	width:400px;
+	float:left;
+}
+
+/*HEADER*/
+header{
+	height:800px;
+	background:url('../img/hand-tools-filter.jpg');
+	background-size:cover;
+}
+header img{
+	width:200px;
+}
+header h1{
+	color:black
+	font-size:72px;
+	font-family:'Lora', serif;
+}
+nav{
+	float:right;
+	padding:40px 40px;
+}
+nav ul li{
+	display:inline-block;
+}
+nav ul li a{
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:20px;
+	color:black;
+	padding-left:40px;
+}
+
+/*ABOUT*/
+#about img{
+	width:400px;
+	border:3px solid black;
+	margin:0 100px 0 94px;
+}
+#about .full-width{
+	padding-top:100px;
+}
+#about h3{
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:24px;
+	font-weight:bold;
+}
+#about p{
+	padding-right:40px;
+	font-family:'Lora', serif;
+	font-size:18px;
+	line-height:28px;
+}
+
+/*PROJECTS*/
+#projects img{
+	width:300px;
+	padding:0px 50px 0px 50px;
+}
+#projects h4{
+	text-align:center;
+	font-family:'Source Sans Pro', sans-serif;
+}
+
+/*CONTACT*/
+#contact{
+	background-color:#ecd9c6;
+	text-decoration:none;
+	color:black;
+	padding-top:40px;
+}
+#contact p{
+	text-decoration:none;
+	color:black;
+}
+#contact .social{
+	padding-left:100px;
+}
+#contact h2{
+	font-family:'Lora', serif;
+}
+#contact ul{
+	list-style:none;
+	padding-left:100px;
+}
+#contact li{
+	display:inline-block;
+}
+#contact ul img{
+	padding-right:48px;
+	width:40px;
+}
